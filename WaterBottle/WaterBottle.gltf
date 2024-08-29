@@ -1,0 +1,214 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Unity 2022.3.15f1 glTFast 6.2.0"
+  },
+  "nodes": [
+    {
+      "name": "WaterBottle",
+      "mesh": 0,
+      "translation": [0.740285337, -0.207540452, 0.6185297]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "WaterBottle.bin",
+      "byteLength": 1071624
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 299880,
+      "byteOffset": 0,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 771744,
+      "byteOffset": 299880,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24117,
+      "type": "VEC3",
+      "max": [-0.270458341, 1.29060841, 0.244498312],
+      "min": [-1.01196229, -0.5898595, -0.5585677]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24117,
+      "type": "VEC3",
+      "byteOffset": 12
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24117,
+      "type": "VEC2",
+      "byteOffset": 24
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 51357,
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 16899,
+      "type": "SCALAR",
+      "byteOffset": 205428
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6135,
+      "type": "SCALAR",
+      "byteOffset": 273024
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 579,
+      "type": "SCALAR",
+      "byteOffset": 297564
+    }
+  ],
+  "images": [
+    {
+      "name": "Image_0.jpg",
+      "uri": "Image_0.jpg",
+      "mimeType": "image/jpeg"
+    },
+    {
+      "name": "Image_1.jpg",
+      "uri": "Image_1.jpg",
+      "mimeType": "image/jpeg"
+    },
+    {
+      "name": "Image_2.jpg",
+      "uri": "Image_2.jpg",
+      "mimeType": "image/jpeg"
+    },
+    {
+      "name": "Image_3.jpg",
+      "uri": "Image_3.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_0",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "name": "Material_1",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "name": "Material_2",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "name": "Material_3",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 3
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "WaterBottle",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 4,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 5,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 6,
+          "material": 3
+        }
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "WaterBottle",
+      "nodes": [0]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    }
+  ]
+}
